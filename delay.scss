@@ -17,11 +17,19 @@
   @return $i;
 }
 
+@function chevron($r, $n) {
+  @return $n;
+}
+
 @function snake($r, $n) {
   $n: $n - 1;
   $i: floor($n / $r) % 2;
   @if $i!=0 {
     @return $n + ($r - ($n % $r * 2) - 1);
   }
+  @return $n;
+}
+
+@function spiral($r, $n) {
   @return $n;
 }
