@@ -18,7 +18,9 @@
 }
 
 @function chevron($r, $n) {
-  @return $n;
+  $n: $n - 1;
+  $i: abs(($r / 2) - 0.5 - ($n % $r));
+  @return $i;
 }
 
 @function snake($r, $n) {
