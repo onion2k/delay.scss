@@ -43,6 +43,6 @@ Collection: https://codepen.io/collection/DdvVGP/
 * Linear: https://codepen.io/onion2k/pen/NMbdpM
 * Horizontal: https://codepen.io/onion2k/pen/MGbJox
 * Diagonal: https://codepen.io/onion2k/pen/MGbJXd
-* Chevron: Coming Soon
+* Chevron: https://codepen.io/onion2k/pen/jxmPmE/
 * Snake: https://codepen.io/onion2k/pen/MGyPvZ
 * Spiral: Coming soon.
