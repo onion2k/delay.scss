@@ -46,3 +46,4 @@ Collection: https://codepen.io/collection/DdvVGP/
 * Chevron: https://codepen.io/onion2k/pen/jxmPmE
 * Snake: https://codepen.io/onion2k/pen/MGyPvZ
 * Spiral: https://codepen.io/onion2k/pen/wjdxdG
+* Droplet: https://codepen.io/onion2k/pen/XqgqBw
