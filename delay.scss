@@ -32,52 +32,45 @@
   @return $n;
 }
 
-@function spiral($r, $n) {
-
-  /* not working yet */
-
+@function spiral($rows, $n) {
   $spiral: ();
   $dir: 0;
-  $t: 0;
-  $b: $rows - 1;
-  $l: 0;
-  $r: $rows - 1;
+  $t: 1;
+  $b: $rows;
+  $l: 1;
+  $r: $rows;
 
   @while ($l <= $r and $t <= $b) {
     @if $dir == 0 {
       @for $k from $l through $r {
-        $spiral: append($spiral, $t * $rows + $k);
+        $spiral: append($spiral, ($l - 1) * $rows + $k);
       }
       $t: $t + 1;
     }
 
     @if $dir == 1 {
       @for $k from $t through $b {
-        $spiral: append($spiral, $k * $r);
+        $spiral: append($spiral, ($k - 1) * $rows + $r);
       }
       $r: $r - 1;
     }
 
     @if $dir == 2 {
-      @for $k from $r through $l {
-        $spiral: append($spiral, $b * $rows + $r);
+      @for $k from $l through $r {
+        $spiral: append($spiral, $b * $rows - $k);
       }
       $b: $b - 1;
     }
 
     @if $dir == 3 {
-      @for $k from $b through $t {
-        $spiral: append($spiral, $k * $l);
+      @for $k from $t through $b {
+        $spiral: append($spiral, ($b - $k + $l) * $rows + $l);
       }
       $l: $l + 1;
     }
 
     $dir: ($dir + 1) % 4;
-
   }
-
-  @return $spiral;
-
   
-
+  @return index($spiral, $n);
 }
