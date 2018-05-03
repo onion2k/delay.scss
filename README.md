@@ -40,8 +40,8 @@ This affords you the opportunity to change the timing value in the browser using
 
 Collection: https://codepen.io/collection/DdvVGP/
 
-* Column: https://codepen.io/onion2k/pen/NMbdpM
-* Row: https://codepen.io/onion2k/pen/MGbJox
+* Row: https://codepen.io/onion2k/pen/NMbdpM
+* Column: https://codepen.io/onion2k/pen/MGbJox
 * Diagonal: https://codepen.io/onion2k/pen/MGbJXd
 * Chevron: https://codepen.io/onion2k/pen/jxmPmE
 * Snake: https://codepen.io/onion2k/pen/MGyPvZ
