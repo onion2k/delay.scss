@@ -1,11 +1,11 @@
 
-@function linear($r, $n) {
+@function row($r, $n) {
   $n: $n - 1;
   $i: floor($n / $r);
   @return $i;
 }
 
-@function horizontal($r, $n) {
+@function column($r, $n) {
   $n: $n - 1;
   $i: $n % $r;
   @return $i;
