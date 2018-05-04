@@ -75,7 +75,7 @@
   @return index($spiral, $n);
 }
 
-droplet($r, $n) {
+@function droplet($r, $n) {
   $n: $n - 1;
   $i: abs(($r / 2) - 0.5 - ($n % $r)) + abs(($r / 2) - 0.5 - floor($n / $r));
   @return $i;
