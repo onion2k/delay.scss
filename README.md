@@ -47,3 +47,4 @@ Collection: https://codepen.io/collection/DdvVGP/
 * Snake: https://codepen.io/onion2k/pen/MGyPvZ
 * Spiral: https://codepen.io/onion2k/pen/wjdxdG
 * Droplet: https://codepen.io/onion2k/pen/XqgqBw
+* Clock: Coming soon (maybe)
